@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root hgap="10.0" prefHeight="130.0" prefWidth="326.0" styleClass="status" type="GridPane" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints halignment="RIGHT" hgrow="NEVER" maxWidth="121.0" minWidth="57.0" prefWidth="121.0" />
+    <ColumnConstraints hgrow="ALWAYS" maxWidth="144.0" minWidth="104.0" prefWidth="104.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="lblStageId" text="stageId:" textAlignment="RIGHT">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></Label>
+      <TextField fx:id="txtStageId" onAction="#stageId" GridPane.columnIndex="1" />
+      <TextField fx:id="txtBedrijfId" onAction="#bedrijfsId" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label fx:id="lblBedrijfId" text="bedrijfsid:" textAlignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></Label>
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="15.0" right="30.0" top="30.0" />
+   </padding>
+</fx:root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="290.0" prefWidth="247.0" styleClass="status" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="90.0" text="StageId" />
+      <TextField fx:id="txtStageId" editable="false" layoutX="38.0" layoutY="114.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="39.0" layoutY="186.0" text="BedrijfsId" />
+      <TextField fx:id="txtBedrijfId" editable="false" layoutX="38.0" layoutY="214.0" />
+   </children>
+   <padding>
+      <Insets left="30.0" right="30.0" top="120.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets top="70.0" />
+   </opaqueInsets>
+</fx:root>
