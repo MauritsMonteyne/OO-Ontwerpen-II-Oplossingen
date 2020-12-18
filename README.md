@@ -6,7 +6,7 @@
 ### JUnit
 - /
 ### Mockito
-- OOII_Mockito_opgave
+- [OOII_Mockito_opgave](/OOII_Mockito_opgave)
 ### Herhalingsoefeningen
 - [x] OOII_JUnit_Teerling_opgave
 - [x] OOII_Mockito_Boekhouding_opgave
