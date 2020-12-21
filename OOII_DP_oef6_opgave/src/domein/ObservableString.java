@@ -33,7 +33,7 @@ public class ObservableString implements Subject
 
 	@Override
 	public void removeObserver(Observer observer) {
-		observers.add(observer);
+		observers.remove(observer);
 	}
 	
     private void notifyObservers() {
