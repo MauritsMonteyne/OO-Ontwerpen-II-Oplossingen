@@ -18,7 +18,8 @@
 - [x] [OOII_DP_Strategy_SimpleFactory_functioneel](/OOII_DP_Strategy_SimpleFactory_functioneel)
 
 ### Observer Pattern
-- /
+- [x] [OOII_DP_Observer_account_opgave](/OOII_DP_Observer_account_opgave)
+- [x] [OOII_DP_Observer_ObservableInteger_opgave](/OOII_DP_Observer_ObservableInteger_opgave)
 
 ### Facade Pattern
 - [x] [OOII_DP_Facade_Compiler](/OOII_DP_Facade_Compiler)
